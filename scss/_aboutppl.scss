@@ -1,0 +1,40 @@
+
+#carouseldiv {
+  z-index: -1;
+  position: relative;
+}
+
+#carousel-h1 {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+/*removes scrollbar caused by 0padding containers*/
+
+.carouselcontainer, .aboutcontainer {
+  overflow: hidden;
+}
+
+/*adds margins to about page text-boxes and images */
+
+
+.about-image {
+  max-width: 300px;
+}
+.bg-warning{
+  background-color: #8C7468;
+}
+.about-row {
+  margin: 50px 50px;
+}
+.txt{
+  background-color: rgba(211, 211, 211, 0.7);
+}
+
+.img-fluid{
+  padding-top: 20px;
+}
+

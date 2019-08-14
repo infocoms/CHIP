@@ -1,0 +1,106 @@
+.btn{
+background-color: $button;
+  color: white;
+  border: $button;
+}
+.btn:hover{
+  background-color: $buttonhover;
+  border: $button;
+  color: white;
+}
+
+.hero-image{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 500px;
+}
+.hero-text{
+  text-align: center;
+  padding-top: 150px;
+  h1{
+    font-size: 85px;
+  }
+  p{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 30px;
+  }
+  a{
+    text-transform: uppercase;
+    padding: 10px 30px;
+    min-width: 50px;
+  }
+}
+.aboutsection{
+  background-color: $white;
+  padding-bottom: 300px;
+  .cardtech{
+    margin-top: 200px;
+    .card-body{
+      min-height: 300px;
+      .card-text{
+        min-height: 150px;
+      }
+    }
+    a{
+      padding: 10px 30px;
+      min-width: 200px;
+    }
+  }
+  .cardpeople{
+    margin-top:200px;
+    min-height: 800px;
+    .card-body{
+      min-height: 300px;
+      .card-text{
+        min-height: 150px;
+      }
+    }
+    a{
+      padding: 10px 30px;
+      min-width: 200px;
+    }
+  }
+}
+
+.cardtech:hover{
+  transform: scale(1.1);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.cardpeople:hover{
+  transform: scale(1.1);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+.eventsection{
+  background-color: $white;
+  padding-bottom: 100px;
+  .eventimage{
+    padding-top: 50px;
+    padding-right: 20px;
+  }
+  .eventtext{
+    text-align: center;
+    margin-top: 100px;
+    min-height: 300px;
+  }
+  a{
+    padding:10px 30px;
+  }
+}
+
+.parallax-home{
+  padding:0;
+  background-image: url("../assets/adult-artificial-intelligence-bot-1020325.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-event{
+  height: 200px;
+}
+
