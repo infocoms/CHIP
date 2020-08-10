@@ -1,6 +1,6 @@
 # CHIP
 
-https://jeroen-editing.github.io/CHIP/
+https://infocoms.github.io/CHIP/
 
 
 Hey, meet CHIP!
